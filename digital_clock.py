@@ -8,13 +8,13 @@ app_window.resizable(1, 1)
 
 text_font = ("Boulder", 68, 'bold')
 background = "#f2e750"
-foreground = "blue"  # Changed clock color to blue
+foreground = "blue"  
 border_width = 25
 
 label = Label(app_window, font=text_font, bg=background, fg=foreground, bd=border_width)
 label.grid(row=0, column=1)
 
-# Adding the creator's name
+
 creator_label = Label(app_window, text="Made by ISHA TOPNO", font=("Helvetica", 14))
 creator_label.grid(row=1, column=1)
 
